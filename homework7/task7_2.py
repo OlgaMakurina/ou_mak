@@ -33,7 +33,7 @@ class PersonInfo:
 
     def path_deps(self):
         return (
-            '-->'.join(self.deps)
+            ' --> '.join(self.deps)
         )
 
     def new_salary(self):
